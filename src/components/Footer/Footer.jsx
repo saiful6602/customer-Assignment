@@ -6,37 +6,36 @@ const Footer = () => {
       <footer className="footer sm:footer-horizontal p-10 mt-11  md:grid md:grid-cols-10 ">
         <nav className="md:col-span-2">
           <p>CS-Ticket System</p>
-          <p className="md:pr-9">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          <p className="md:pr-9 text-gray-400">
+             Your dedicated platform for tracking, managing, and resolving customer 
+            issues efficiently. We streamline support to ensure every ticket is 
+            handled with speed and precision, enhancing customer satisfaction.
           </p>
         </nav>
 
         <nav className="md:col-span-2">
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About Us</a>
-          <a className="link link-hover">Our Mission</a>
-          <a className="link link-hover">Contact Saled</a>
+          <h6 className=" text-white">Company</h6>
+          <a className="link link-hover text-gray-400">About Us</a>
+          <a className="link link-hover text-gray-400">Our Mission</a>
+          <a className="link link-hover text-gray-400">Contact Saled</a>
         </nav>
 
         <nav className="md:col-span-2">
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Products & Services</a>
-          <a className="link link-hover">Customer Stories</a>
-          <a className="link link-hover">Download Apps</a>
+          <h6 className="text-white">Services</h6>
+          <a className="link link-hover text-gray-400">Products & Services</a>
+          <a className="link link-hover text-gray-400">Customer Stories</a>
+          <a className="link link-hover text-gray-400">Download Apps</a>
         </nav>
 
         <nav className="md:col-span-2">
-          <h6 className="footer-title">Information</h6>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Terms & Conditions</a>
-          <a className="link link-hover">Join Us</a>
+          <h6 className="text-white">Information</h6>
+          <a className="link link-hover text-gray-400">Privacy policy</a>
+          <a className="link link-hover text-gray-400">Terms & Conditions</a>
+          <a className="link link-hover text-gray-400">Join Us</a>
         </nav>
 
         <nav className="md:col-span-2">
-          <h6 className="footer-title">Legal</h6>
+          <h6 className="text-white">Legal</h6>
           <a className="link link-hover flex gap-2 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -45,9 +44,9 @@ const Footer = () => {
               height="15"
               fill="currentColor"
             >
-              <path d="M714.3 544.6 1179.3 0H1072L661.9 486.8 327.7 0H0l489.5 702.1L0 1227.1h107.3l434.6-524.6 351.1 524.6H1200L714.3 544.6zm-153.4 185.1-50.3-73.9L146.5 82.9h140.3l305.6 448.9 50.3 73.9 389.4 572.7H891.7L560.9 729.7z" />
+              <path d="M714.3 544.6 1179.3 0H1072L661.9 486.8 327.7 0H0l489.5 702.1L0 1227.1h107.3l434.6-524.6 351.1 524.6H1200L714.3 544.6zm-153.4 185.1-50.3-73.9L146.5 82.9h140.3l305.6 448.9 50.3 73.9 389.4 572.7H891.7L560.9 729.7z text-gray-400" />
             </svg>
-            Terms of use
+            <a className="link link-hover text-gray-400">Terms of use</a>
           </a>
           <a className="link link-hover flex gap-2 items-center">
             <svg
